@@ -1,0 +1,389 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ======css reset over, starts here =========*/
+
+*,*:after,*:before{
+
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+.container{
+    width:1200px;
+    /* padding: 0 360px; */
+    margin:0 auto;
+}
+h1{
+
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+
+    line-height: 106px;
+    margin-bottom: 32px;
+    color:#FFFFFF;
+    opacity: 1;
+    
+}
+
+h2{
+    font-size: 64px;
+    font-family: 'Roboto',sans-serif;
+    line-height: 84px;
+    font-weight: 500;
+    font-style: italic;
+}
+h3{
+    font-size: 24px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 42px;
+    color:white;
+
+}
+
+.headTitle{
+
+    display:inline-block;
+    /* border:1px solid black; */
+
+}
+.headTitle h3{
+
+    text-align:initial;
+}
+
+
+.h3-fw-med{
+    font-weight: 500;
+
+}
+.subtitle_s{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color:#FFFFFF;
+}
+
+
+.subtitle_bold,.list{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 36px;
+    color:#FFFFFF;
+    opacity: 1;
+    /* text-align: center; move to *all */
+
+}
+
+.font-med{
+    font-weight: 500;
+}
+
+.LH-long{
+    line-height: 42px;
+}
+.text-black{
+    color:black;
+
+}
+.text-white{
+    color:white;
+
+}
+
+
+
+
+.icon1{
+    width: 60px;
+    height: 60px;
+    background: url(img/logo/iconfinder_25_social_2609558.svg) center center;
+    
+}
+.icon2{
+    width: 60px;
+    height: 60px;
+    background: url(img/logo/iconfinder_6_social_2609577.svg) center center;
+    
+}
+.icon3{
+    width: 60px;
+    height: 60px;
+    background: url(img/logo/iconfinder_18_social_2609550.svg) center center;
+   
+}
+.icon4{
+    width: 60px;
+    height: 60px;
+    background: url(img/logo/iconfinder_1_social_2609541.svg) center center;
+    padding-right: 16px;
+  
+    
+}
+
+.icon-contain{
+    /* display:inline-block; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+    cursor: pointer;
+
+}
+
+
+.socialMedia{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head{
+    background-image: url(img/about/photo-1552393700-42696fb89bfa.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 308px 0;
+
+}
+
+.about{
+    padding:56px 0;
+
+}
+
+.profilePic{
+    height: 384px;
+    width: 384px;
+    background-image:url(img/about/photo-1551852922-003865d4a3ba.png);
+    background-position: center center;
+    background-size: contain;
+}
+
+.line{
+    width: 384px;
+  
+    border:1px solid black;
+    border-color: #000;
+    margin: 0 auto;;
+    
+}
+
+.profileList .list::before{
+    content:""; /*!!一定要加content! */
+    display:inline-block;
+    /*Q:not very sure about the type of list*/
+    width: 22px;
+    height: 22px;
+
+    border-radius: 50%;
+    background-color:#891818;
+    margin-right: 16px;
+}
+
+.brand{
+    padding-top: 56px;
+    padding-bottom: 160px;
+    background-color: black;
+}
+.brandPic{
+    
+    min-width: 1200px;
+    /* margin:0 auto; */
+    
+}
+.brandPic-group{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.brandPic-group-list2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.brandPic1{
+
+    background-image: url(img/mybrand/photo-1564864310852-e1e98eb07010_1.png);
+    width: 792px;
+    height: 416px;
+    background-size: contain;
+    display:block;
+    margin:0 auto;
+    
+    text-indent:101%;
+    overflow:hidden;
+    white-space:nowrap;
+  
+}
+.brandPic2,.brandPic3{
+  
+    background-image: url(img/mybrand/photo-1499971856191-1a420a42b498.png);
+    width: 588px;
+    height: 416px;
+    background-size: contain;
+    display:block;
+    background-repeat: no-repeat;
+    margin-right: 24px;
+
+    text-indent:101%;
+    overflow:hidden;
+    white-space:nowrap;
+
+}
+.brandPic3{
+
+    background-image: url(img/mybrand/photo-1582126892906-5ba118eaf46e.png);
+
+}
+.works{
+    padding-top:56px;
+    padding-bottom: 144px;
+}
+
+.worksList ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.col1,.col3{
+    width: 384px;
+    margin-right: 24px;
+    
+}
+.col2{
+    width: 588px;
+    margin-right: 24px;
+    
+}
+.col-noMargin-R{
+    margin-right: 0px;
+}
+
+
+.worksList-group li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.footer{
+    
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    background-color: black;
+
+}
+
+.footer a{
+
+    text-decoration: none;
+}
+.a-block{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.mb-sm{
+    margin-bottom: 4px;
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.mb-2-L{
+    margin-bottom: 20px;
+}
+.mb-3{
+    margin-bottom: 24px;
+}
+.mb-4-s{
+    margin-bottom: 28px;
+}
+.mb-4{
+    margin-bottom: 32px;
+}
+
+.mb-5{
+    margin-bottom: 40px;
+}
+.mb-6{
+    margin-bottom: 48px;
+}
+.mb-7{
+    margin-bottom: 56px;
+}
+
+.mb-8-L{
+    margin-bottom: 68px;
+}
+
+.LH-short{
+    line-height: 36px;
+}
+
+
+.mt-2{
+    margin-top: 16px;
+}
